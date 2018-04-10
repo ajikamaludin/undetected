@@ -7,46 +7,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto+Condensed:300,300i,400,400i,700,700i|Signika:300,400,600,700"
     rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/navbar.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/banner.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/galeri.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/video.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/location.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/location.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/media.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/footer.css" />    
-    <script src="assets/js/main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/footer.css" />
 </head>
 <body>
-    <div class="navbar">
-        <div class="logo">
-            <p>Ini Logo</p>
+    <header>
+        <div id="logo" class="menuUp">
+            <!-- <h1>G-Sport</h1> -->
+            <img src="assets/img/pima.png"/>
+            <div id="navToggle">
+                <a href="#">Menu</a>
+            </div>
         </div>
-        <div class="navbar-menu">
-            <ul class="topnav">
-                <li>Beranda</li>
-                <li>Berita</li>
-                <li>Kegiatan</li>                
-                <li>Fasilitas</li>
-                <li>Tentang</li>                
+        <nav>
+            <ul>
+                <li><a href="#">Beranda</a></li>
+                <li><a href="#berita">Berita</a></li>
+                <li><a href="#kegaiatan">Kegiatan</a></li>                
+                <li><a href="#">Fasilitas</a></li>
+                <li><a href="#">Tentang</a></li>  
             </ul>
-        </div>
-    </div>
+        </nav>
+    </header>
     <div class="banner">
         <p class="header-text">Ini Sport</p>
     </div>
-    <div class="galeri">
+    <div class="galeri" id="gallery">
+        <div class="container">
+            <div class="row">
+                <div class="column">
+                    <img src="assets/img/badminton.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="assets/img/badminton2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="assets/img/swimming.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+                </div>
+            </div>
+        </div>
+
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+        
+                <div class="mySlides">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="assets/img/badminton.jpg" style="width:100%">
+                </div>
+        
+                <div class="mySlides">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="assets/img/badminton2.jpg" style="width:100%">
+                </div>
+        
+                <div class="mySlides">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="assets/img/swimming.jpg" style="width:100%">
+                </div>
+        
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+            </div>
+        </div>
 
     </div>
-    <div class="main">
-        <div class="berita">
-
+    <div class="main" id="berita">
+        <div class="column1">
+            <div class="head">Berita</div>
+            konten
         </div>
-        <div class="acara">
-
+        <div class="column2">
+            <div class="head">Acara</div>
+            konten
         </div>
     </div>
-    <div class="video">
+    <div class="video" id="kegaiatan">
 
     </div>
     <div class="location">
@@ -58,5 +104,8 @@
     <div class="footer">
 
     </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="assets/js/main.js"></script>
 </body>
 </html>
