@@ -137,6 +137,7 @@ header>nav>ul>li>nav>ul>li:hover>a {
         display: none;
     }
     header {
+        overflow: hidden;
         background-color: var(--main-bg-navbar);
         flex-direction: row;
         line-height: 90px;
@@ -144,6 +145,7 @@ header>nav>ul>li>nav>ul>li:hover>a {
         position: fixed;
         text-align: left;
         width: 100%;
+        top: 0;
     }
     header>div#logo {
         background-color: transparent;
