@@ -259,7 +259,7 @@ h6 {
     background-color: gray;
     float: left;
     width: 59%;
-    height: 100%;
+    height: 200%;
     margin-right: 10px;
 }
 
@@ -267,7 +267,7 @@ h6 {
     background-color: indigo;
     float: left;
     width: 40%;
-    height: 100%;
+    height: 200%;
 }
 
 .main:after{
@@ -336,4 +336,11 @@ h6 {
     position: relative;
     padding-top: 5px;
     clear: both;
+}
+
+.chelsea{
+    width: 300px;
+    height: 200px;
+    align-content: center;
+
 }
