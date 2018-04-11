@@ -291,10 +291,41 @@ h6 {
 }
 
 .main>.column2 {
-    background-color: indigo;
     float: left;
     width: 40%;
     height: 200%;
+}
+
+.main>.column2>.head-event {
+    color:#000 !important;
+    background-color:#ecb535 !important
+}
+
+.main>.column2>.head-event>p {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.main>.column2>.the-event {
+    background-color: white !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.date-event {
+    width: 50%;
+    display: block;
+    background-color: springgreen;
+    padding: 20px 20px 20px 20px;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.main>.column2>.the-event>.row>.column {
+    padding: 0 8px;
+    padding-top: 10px;
 }
 
 .main:after{
