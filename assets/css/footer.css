@@ -1,0 +1,6 @@
+.footer-bottom {
+    background-color: var(--main-bg-navbar);
+    padding: 20px 0;
+    color: #FFFFFF;
+    text-align: center;
+}
