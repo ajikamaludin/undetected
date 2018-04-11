@@ -4,6 +4,7 @@ header {
     display: flex;
     flex-direction: column;
     text-align: center;
+    z-index: 2;
 }
 
 header > div#logo {
