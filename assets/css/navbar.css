@@ -6,13 +6,13 @@ header {
     text-align: center;
 }
 
-header>div#logo {
+header > div#logo {
     line-height: 70px;
     position: relative;
     text-align: left;
 }
 
-header>div#logo>img {
+header > div#logo > img {
     height: 50px;
     display: inline-block;
     vertical-align: middle;
@@ -20,21 +20,21 @@ header>div#logo>img {
     margin-left: 20px;
 }
 
-header>.menuDown {
+header > .menuDown {
     box-shadow: 0 3px 5px rgba(0, 0, 0, .15);
 }
 
-header>.menuUp {
+header > .menuUp {
     box-shadow: none;
 }
 
-header>div#logo>h1 {
+header > div#logo > h1 {
     color: white;
     font-weight: 300;
     text-transform: lowercase;
 }
 
-header>div#logo>div#navToggle {
+header > div#logo > div#navToggle {
     background-color: rgba(0, 0, 0, .15);
     position: absolute;
     right: 0;
@@ -42,11 +42,11 @@ header>div#logo>div#navToggle {
     transition: 300ms all ease;
 }
 
-header>div#logo>div#navToggle:hover {
+header > div#logo > div#navToggle:hover {
     background-color: rgba(0, 0, 0, .1);
 }
 
-header>div#logo>div#navToggle>a {
+header > div#logo > div#navToggle > a {
     color: rgba(255, 255, 255, .85);
     display: block;
     font-size: 0.85em;
@@ -56,31 +56,31 @@ header>div#logo>div#navToggle>a {
     transition: 300ms all ease;
 }
 
-header>div#logo>div#navToggle:hover>a {
+header > div#logo > div#navToggle:hover > a {
     color: rgba(255, 255, 255, 1);
 }
 
-header>nav {
+header > nav {
     background-color: white;
     display: none;
     flex: 1;
     transform: 300ms all ease;
 }
 
-header nav>ul {
+header nav > ul {
     list-style-type: none;
 }
 
-header nav>ul>li {
+header nav > ul > li {
     border-bottom: 1px dotted rgba(0, 0, 0, .1);
     position: relative;
 }
 
-header nav>ul>li:last-of-type {
+header nav > ul > li:last-of-type {
     border-bottom: none;
 }
 
-header nav>ul>li>a {
+header nav > ul > li > a {
     display: block;
     color: rgba(0, 0, 0, .65);
     font-weight: 700;
@@ -89,7 +89,7 @@ header nav>ul>li>a {
     transition: 250ms all ease;
 }
 
-header nav>ul>li>a span.toggle {
+header nav > ul > li > a span.toggle {
     background-color: rgba(0, 0, 0, .05);
     border-radius: 3rem;
     color: rgba(0, 0, 0, .25);
@@ -99,16 +99,16 @@ header nav>ul>li>a span.toggle {
     text-transform: lowercase;
 }
 
-header nav>ul>li>a span.caret {
+header nav > ul > li > a span.caret {
     display: none;
 }
 
-header>nav>ul>li:hover>a {
+header > nav > ul > li:hover>a {
     /* color: #AF3FAF; */
     color: rgb(140, 193, 193);
 }
 
-header>nav>ul>li>nav {
+header > nav > ul > li > nav {
     background-color: rgb(51, 51, 51);
     border-radius: 1.5em;
     box-shadow: 0 2px 8px rgba(0, 0, 0, .6);
@@ -120,12 +120,12 @@ header>nav>ul>li>nav {
     z-index: 100;
 }
 
-header>nav>ul>li>nav>ul>li>a {
+header > nav > ul > li > nav > ul > li > a {
     color: rgba(255, 255, 255, .85);
     transition: 300ms all ease;
 }
 
-header>nav>ul>li>nav>ul>li:hover>a {
+header > nav > ul > li > nav > ul > li:hover > a {
     background-color: rgba(0, 0, 0, .6);
     color: rgba(255, 255, 255, 1);
 }
@@ -133,7 +133,7 @@ header>nav>ul>li>nav>ul>li:hover>a {
 /* Medium screens */
 
 @media all and (min-width: 600px) {
-    header>div#logo>div#navToggle {
+    header > div#logo > div#navToggle {
         display: none;
     }
     header {
@@ -147,7 +147,7 @@ header>nav>ul>li>nav>ul>li:hover>a {
         width: 100%;
         top: 0;
     }
-    header>div#logo {
+    header > div#logo {
         background-color: transparent;
         margin: 0;
         padding: 0;
@@ -156,35 +156,35 @@ header>nav>ul>li>nav>ul>li:hover>a {
         vertical-align: baseline;
         line-height: 90px;
     }
-    header>div#logo>img {
+    header > div#logo > img {
         height: 70px;
         display: inline-block;
         vertical-align: middle;
         max-width: inherit;
     }
-    header>div#logo>h1 {
+    header > div#logo > h1 {
         color: rgb(140, 193, 193);
     }
-    header>nav {
+    header > nav {
         background-color: transparent;
         display: block;
     }
-    header>nav>ul {
+    header > nav > ul {
         display: flex;
         flex-flow: row wrap;
         justify-content: flex-end;
     }
-    header nav>ul>li {
+    header nav > ul > li {
         border-bottom: none;
     }
-    header nav>ul>li>a {
+    header nav > ul > li > a {
         padding: 0 1.25rem;
         color: white;
     }
-    header nav>ul>li>a span.toggle {
+    header nav > ul > li > a span.toggle {
         display: none;
     }
-    header nav>ul>li>a span.caret {
+    header nav > ul > li > a span.caret {
         border-bottom: 4px solid transparent;
         border-top: 4px solid rgba(0, 0, 0, .65);
         border-right: 4px solid transparent;
@@ -198,11 +198,11 @@ header>nav>ul>li>nav>ul>li:hover>a {
         width: 0;
         vertical-align: middle;
     }
-    header nav>ul>li:hover>a span.caret {
+    header nav > ul > li:hover > a span.caret {
         border-top-color: rgb(140, 193, 193);
         transform: rotate(270deg);
     }
-    header>nav>ul>li:hover>nav {
+    header > nav > ul > li:hover > nav {
         background-color: rgb(51, 51, 51);
         border-radius: .25em;
         box-shadow: 0 2px 8px rgba(0, 0, 0, .6);

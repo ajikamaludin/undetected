@@ -129,7 +129,7 @@ h6 {
 }
 
 
-.row>.column {
+.row > .column {
     padding: 0 8px;
 }
 
@@ -286,8 +286,6 @@ h6 {
     text-decoration:none;
     }
 
-/* Banner Content CSS -- stop here */
-
 .galeri {
     max-width: 100%;
     margin-top: 10px;
@@ -302,20 +300,18 @@ h6 {
 
 .main > .column1{
     background-color: #ececec;
-    float: left;
-    width: 59%;
     height: 200%;
     margin-right: 10px;
 }
 
-.main>.column1>img {
+.main > .column1 > img {
     height: 250px;
-    margin-left: 25px;
+    margin-left: 10px;
     margin-bottom: 10px;
     float: left;
 }
 
-.main>.column1>p {
+.main > .column1 > p {
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 10px;
@@ -329,6 +325,11 @@ h6 {
     padding-top: 10px;
 }
 
+.judul-post:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
 .tanggal-post{
     margin-top: auto;
     margin-left: auto;
@@ -339,18 +340,12 @@ h6 {
     color: #6d6d6d;
 }
 
-.main>.column2 {
-    float: left;
-    width: 40%;
-    height: 200%;
-}
-
-.main>.column2>.head-event {
+.main > .column2 > .head-event {
     color:#000 !important;
     background-color:#ecb535 !important
 }
 
-.main>.column2>.head-event>p {
+.main > .column2 > .head-event > p {
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -358,13 +353,13 @@ h6 {
     font-size: 20px;
 }
 
-.main>.column2>.the-event {
+.main > .column2 > .the-event {
     background-color: #ececec !important;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.main>.column2>.the-event>.row>.column {
+.main > .column2 > .the-event > .row > .column {
     padding: 0 8px;
     padding-top: 10px;
 }
@@ -377,8 +372,7 @@ h6 {
 
 .date-event {
     display: block;
-    background-color: springgreen;
-    padding: 25%;
+    padding-left: 5%;
     font-size: 45px;
     font-weight: bold;
 }
@@ -387,7 +381,13 @@ h6 {
     font-size: 25px;
 }
 
-.on-event>p {
+.on-event:hover {
+    font-size: 25px;
+    color: blue;
+    text-decoration: underline;
+}
+
+.on-event > p {
     font-size: initial;
 }
 
@@ -406,7 +406,7 @@ h6 {
     height: 300px;
 }
 
-.location>.column {
+.location > .column {
     margin: 5px 5px 5px 5px;
     background-color: white;
     float: left;
@@ -420,7 +420,7 @@ h6 {
     height: 620px;
 }
 
-.media>.column {
+.media > .column {
     margin: 5px 5px 5px 5px;
     background-color: white;
     float: left;

@@ -12,15 +12,13 @@
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/banner.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/galeri.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/video.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/location.css"/>
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/media.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/footer.css" />
 </head>
 <body>
+
     <div class="top">
         <header>
             <div id="logo" class="menuUp">
-                <!-- <h1>G-Sport</h1> -->
                 <img src="assets/img/pima.png" />
                 <div id="navToggle">
                     <a href="#">Menu</a>
@@ -29,30 +27,30 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#">Beranda</a>
+                        <a href="#banner">Beranda</a>
                     </li>
                     <li>
                         <a href="#berita">Berita</a>
                     </li>
                     <li>
-                        <a href="#kegaiatan">Kegiatan</a>
+                        <a href="#tips">Tips & Trick</a>
                     </li>
                     <li>
-                        <a href="#">Fasilitas</a>
-                    </li>
-                    <li>
-                        <a href="#">Tentang</a>
+                        <a href="#about">Tentang</a>
                     </li>
                 </ul>
             </nav>
         </header>
     </div>
+
     <div id="banner">
         <div class="content">
             <img src="assets/img/sports-1.jpg" alt="Sport Banner">
         </div>
     </div>
+
     <div class="double-space"></div>
+    
     <div class="galeri" id="gallery">
         <div class="container">
             <div class="title-left">
@@ -73,13 +71,13 @@
                     <img src="assets/img/swimming.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
                 </div>
                 <div class="col-4">
-                    <img src="assets/img/basket.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                    <img src="assets/img/basket.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
                 </div>
                 <div class="col-4">
-                    <img src="assets/img/fitness.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+                    <img src="assets/img/fitness.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
                 </div>
                 <div class="col-4">
-                    <img src="assets/img/stadion.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+                    <img src="assets/img/stadion.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
                 </div>
             </div>
         </div>
@@ -105,7 +103,7 @@
 
                 <div class="mySlides">
                     <div class="numbertext">4 / 6</div>
-                    <img src="assets/img/stadion.jpg" style="width:100%">
+                    <img src="assets/img/basket.jpg" style="width:100%">
                 </div>
 
                 <div class="mySlides">
@@ -128,14 +126,15 @@
         </div>
 
     </div>
+
     <div class="double-space"></div>
     
     <div class="main-back">
     <div class="main" id="berita">
-        <div class="column1">
+        <div class="column1 col-7">
             <h1 class="judul-post">PIALA FA SEBAGAI PENYELAMAT MUSIM CHELSEA</h1>
             <h4 class="tanggal-post">Selasa 10 April 2018, 14:08 WIB</h4>
-            <img src='assets/img/chelsea.jpeg'>
+            <img src='assets/img/chelsea.jpeg' class="col-4">
             <p align='justify' ><b>London (detiksport)</b> - Piala FA jadi satu-satunya gelar yang bisa di menangkan Chelsea. Eden Hazard beda pendapat dengan Cesar
             Azpilicueta terkait pentingnya Piala FA untuk dimenangi. Chelsea menjalani musim 2017/2018 dengan hasil yang mengecewakan.
             The Blues telah gagal mempertahankan gelar Premier League, tersingkir di Piala Liga Inggris, dan out di Liga Champions.
@@ -148,7 +147,7 @@
 
             <h1 class="judul-post">SERANGAN-SERANGAN ROSSI DAN PEMBELAAN DIRI MARQUEZ</h1>
             <h4 class="tanggal-post">Selasa 10 April 2018, 12:38 WIB</h4>
-            <img src='assets/img/rossi.jpeg'>
+            <img src='assets/img/rossi.jpeg' class="col-4">
             <p align='justify'><b>Jakarta (detiksport)</b> - Hubungan Valentino Rossi dan Marc Marquez turun ke level paling rendah. The Doctor mengeluarkan banyak
             pernyataan keras, sementara si baby Alien bersikukuh membela diri. Rossi gagal meraih poin pada balapan di Argentina,
             Senin (9/4/2018) dinihari kemarin. Dia hanya bisa menuntaskan race di posisi 19 setelah sempat terjatuh akibat bersenggolan
@@ -157,7 +156,7 @@
 
             <h1 class="judul-post">HADAPI ASIAN GAMES, PELTI JUGA ANDALKAN CHRISTO UNTUK RAIH MEDALI</h1>
             <h4 class="tanggal-post">Selasa 10 April 2018, 14:08 WIB</h4>
-            <img src='assets/img/tenis.jpeg'>
+            <img src='assets/img/tenis.jpeg' class="col-4">
             <p align='justify'><b> Jakarta (detiksport) </b> - Setelah lolos dari degradasi di Grup II Piala Davis Zona Asia/Oceania,
             kini Pengurus Pusat Persatuan Tenis Seluruh Indonesia (PP Pelti) berfokus ke Asian Games 2018. Di ajang itu mereka mematok
             satu medali. Sebagai tuan rumah Asian Games, PP Pelti tak memiliki persiapan khusus. Pelti memercayakan kepada pengalaman
@@ -166,7 +165,8 @@
             Christopher kan main. Kita bicaranya Christo ada di Asian Games jadi punya potensi, bisa di double atau perorangan. Nomor
             ganda dia bagus bersama Justin Barki," kata Ketua PP Pelti Rildo Ananda Anwar, kepada detikSport, Senin (9/4/2018).</p>
         </div>
-        <div class="column2">
+
+        <div class="column2 col-4">
             <div class="head-event">
                 <p>Acara</p>
             </div>
@@ -200,8 +200,10 @@
             </div>
         </div>
     </div>
+
     <div class="double-space"></div>
-    <div class="video" id="kegaiatan">
+
+    <div class="video" id="tips">
         <div class="container">
             <div class="title-left">
                 <h1 class="section-title">
@@ -212,19 +214,15 @@
             <div class="space"></div>
             <div class="row">
                 <div class="col-3">
-                    <!-- <a class="btn" data-popup-open="popup-1" href="#">Open Popup #1</a> -->
                     <img class="img-popup" data-popup-open="popup-1" src="https://img.youtube.com/vi/uIwrHM7xGd8/mqdefault.jpg" alt="Thumbnail">
                 </div>
                 <div class="col-3">
-                    <!-- <a class="btn" data-popup-open="popup-2" href="#">Open Popup #1</a> -->
                     <img class="img-popup" data-popup-open="popup-2" src="https://img.youtube.com/vi/K23pzCooXFU/mqdefault.jpg" alt="Thumbnail">
                 </div>
                 <div class="col-3">
-                    <!-- <a class="btn" data-popup-open="popup-3" href="#">Open Popup #1</a> -->
                     <img class="img-popup" data-popup-open="popup-3" src="https://img.youtube.com/vi/XJRh2nAZTGE/mqdefault.jpg" alt="Thumbnail">
                 </div>
-                <div class="col-3">
-                    <!-- <a class="btn" data-popup-open="popup-4" href="#">Open Popup #1</a>                     -->
+                <div class="col-3">                -->
                     <img class="img-popup" data-popup-open="popup-4" src="https://img.youtube.com/vi/0v5xGzOxqeQ/mqdefault.jpg" alt="Thumbnail">
                 </div>
             </div>
@@ -256,10 +254,9 @@
         </div>
     </div>
     <div class="space"></div>
-    <div class="location">
-       
-            <iframe height="100%" width="100%" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyC8rvI6cenUH_3ikkuPirMeMre996ZBEa0
-                &q=Space+Needle,Seattle+WA" allowfullscreen>
+    <div class="location" id="about">
+            <iframe height="100%" width="100%" frameborder="0" style="border:0" 
+                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyC8rvI6cenUH_3ikkuPirMeMre996ZBEa0&q=Space+Needle,Seattle+WA" allowfullscreen>
             </iframe>
     </div>
     <footer>
@@ -269,32 +266,32 @@
                     <div class="col-3 col-s-6">
                         <div class="footer-about">
                             <img src="assets/img/pima.png" alt="Logo G-Sport" />
-                            <p>Lorem ipsum dolor sit amet duis risu consectetur adipiscing elit</p>
+                            <p>Memerika kemudahan dan solusi kepada anda dalam masalah olahraga yang tidak teratur, 
+                                memiliki banyak cabang dan berbagai macam tempat olahraga</p>
                         </div>
                     </div>
                     <div class="col-3 col-s-6">
                         <div class="footer-contact">
-                            <h5>Contact Us</h5>
+                            <h5>Kontak</h5>
                             <ul class="contact-info">
                                 <li>
                                     <img src="assets/img/rocket.png" class="icon">
                                     
-                                    <address>350 Fifth Avenue, 34th floor, New York, NY 10118-3299 USA</address>
+                                    <address>Jl.Kita Bersama No.123, Kalibatang, Selat Selatan</address>
                                 </li>
                                 <li>
                                     <img src="assets/img/phone.png" class="icon">
-                                    <p>+4534435345</p>
+                                    <p>+6283838027548</p>
                                 </li>
                                 <li>
                                     <img src="assets/img/envelope.png" class="icon">
-                                    <p>test@test.com</p>
+                                    <p>cs@g-sport.com</p>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-3 col-s-6">
                         <div class="footer-twitter">
-                            <h5>LATEST TWEETS</h5>
                             <div class="twitter-content">
                                 <a class="twitter-timeline"  href="https://twitter.com/search?q=Olahraga" data-widget-id="984013795680030726">Tweet tentang Olahraga</a>
                                 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>                        
@@ -303,12 +300,13 @@
                     </div>
                     <div class="col-3 col-s-6">
                         <div class="footer-newsletter">
-                            <h5>NEWSLETTER</h5>
-                            <p>Subscribe to our newsletter to receive our latest news and updates. We do not spam.</p>
+                            <h5>Berlangganan</h5>
+                            <p>Dapatkan selalu update seputar olahraga yang baik dan hidup sehat.</p>
                             <form action="" class="newsletter-form" method="POST">
                                 <p>
-                                    <input type="email" placeholder="Enter your email address" value="info@example.com" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
-                                    <input type="submit" class="btn btn-primary" value="Subscribe">
+                                    <input type="email" placeholder="Enter your email address" value="info@example.com" 
+                                            onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
+                                    <input type="submit" class="btn btn-primary" value="Kirim">
                                 </p>
                             </form>
                         </div>
