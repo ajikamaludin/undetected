@@ -36,6 +36,10 @@
         top: 40%;
         left: 30%;
     }
+    #hero-text:hover {
+        top: 35%;
+        left: 35%;
+    }
     #hero-area {
         top: 47%;
         left: 30%;
