@@ -15,6 +15,7 @@ body {
     min-height: 100%;
     text-rendering: optimizeLegibility;
     color: #686868;
+    background-color: #ececec;
 }
 
 html {
@@ -293,18 +294,50 @@ h6 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 .main {
-    background-color:white;
-    max-width: 100%;
-    height: 300px;
+    max-width: 90%;
+    min-height: 600px;
+    margin: auto;
 }
 
 .main > .column1{
-    background-color: gray;
+    background-color: white;
     float: left;
     width: 59%;
     height: 200%;
     margin-right: 10px;
+}
+
+.main>.column1>img {
+    height: 250px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.main>.column1>p {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    clear: both;
+    color: black;
+}
+
+.judul-post{
+    margin: auto;
+    width: 95%;
+    padding-top: 10px;
+}
+
+.tanggal-post{
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 95%;
+    size: 10px;
+    color: #6d6d6d;
 }
 
 .main>.column2 {
