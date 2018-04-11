@@ -14,7 +14,6 @@ body {
     height: 100%;
     min-height: 100%;
     text-rendering: optimizeLegibility;
-    color: #686868;
     background-color: #ffffff;
 }
 
@@ -302,7 +301,7 @@ h6 {
 }
 
 .main > .column1{
-    background-color: white;
+    background-color: #ececec;
     float: left;
     width: 59%;
     height: 200%;
@@ -359,18 +358,9 @@ h6 {
 }
 
 .main>.column2>.the-event {
-    background-color: white !important;
+    background-color: #ececec !important;
     padding-top: 10px;
     padding-bottom: 10px;
-}
-
-.date-event {
-    width: 50%;
-    display: block;
-    background-color: springgreen;
-    padding: 20px 20px 20px 20px;
-    font-size: 45px;
-    font-weight: bold;
 }
 
 .main>.column2>.the-event>.row>.column {
@@ -382,6 +372,22 @@ h6 {
     content: "";
     display: table;
     clear: both;
+}
+
+.date-event {
+    display: block;
+    background-color: springgreen;
+    padding: 25%;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.on-event{
+    font-size: 25px;
+}
+
+.on-event>p {
+    font-size: initial;
 }
 
 .head{
