@@ -1,4 +1,78 @@
-.footer-bottom {
+footer {
+    position: relative;
+    background-color: #f5f5f5;
+    color: #666666;
+}
+
+footer .footer-top {
+    padding-top: 60px;
+    padding-bottom: 35px;
+}
+
+footer .footer-top h5 {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+footer .contact-info {
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+footer .footer-top .footer-twitter .twitter-content {
+    margin: 0 0 10px;
+}
+
+.newsletter-form input[type="email"] {
+    background: none;
+    margin-bottom: 12px;
+    border-radius: 3px;
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    border: 2px solid #cecece;
+    transition: all 0.3s;
+}
+
+footer .footer-top .icon {
+    height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 24px;
+}
+
+footer .contact-info > li {
+    position: relative;
+    padding-left: 24px;
+    margin-bottom: 24px;
+    font-weight: normal;
+    font-size: 13px;
+}
+
+footer .contact-info > li address {
+    margin: 0;
+    display: inline-block;
+}
+
+footer .footer-top .footer-about img {
+    height: 100px;
+}
+
+footer .footer-top p {
+    font-size: 14px;
+    margin: 0 0 28px;
+}
+
+footer .footer-bottom {
     background-color: var(--main-bg-navbar);
     padding: 20px 0;
     color: #FFFFFF;
