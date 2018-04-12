@@ -301,7 +301,6 @@ h6 {
 .main > .column1{
     background-color: #ececec;
     height: 200%;
-    margin-right: 10px;
 }
 
 .main > .column1 > img {
@@ -323,6 +322,7 @@ h6 {
     margin: auto;
     width: 95%;
     padding-top: 10px;
+    cursor: pointer;
 }
 
 .judul-post:hover {
@@ -332,12 +332,30 @@ h6 {
 
 .tanggal-post{
     margin-top: auto;
-    margin-left: auto;
+    margin-left: 15px;
     margin-right: auto;
     margin-bottom: 20px;
     width: 95%;
     size: 10px;
     color: #6d6d6d;
+}
+
+.post-body {
+    width: 100%;
+    display: flex;
+}
+
+.post-body > .post-image img {
+    height: 150px;
+    width: 100%;
+}
+
+.post-body > .post-content p {
+    font-size: 14px;
+}
+
+.panel-event {
+    margin-top: -15px;
 }
 
 .main > .column2 > .head-event {
