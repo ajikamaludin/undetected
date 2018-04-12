@@ -63,6 +63,46 @@ footer .contact-info > li address {
     display: inline-block;
 }
 
+.btn {
+    border-style: solid;
+    border-width: 0px 0px 3px;
+    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+    color: #FFFFFF;    
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+    font-style: normal;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    transition: all 200ms ease-in-out 0s;
+    white-space: nowrap;
+    font-weight: 700;   
+    padding: 13px 33px 12px;
+    font-size: 18px;
+}
+
+.btn-subscribe {
+    border-color: #3AC162;
+    background-color: #5FCF80;
+}
+.btn-subscribe:hover, .btn-subscribe:focus, .btn-subscribe:active {
+    background-color: #4BC970;
+    border-color: #3AC162;    
+}
+
+.btn-subscribe:hover {
+    -webkit-animation: hover 1200ms linear 2 alternate;
+    animation: hover 1200ms linear 2 alternate;
+}
+
+.btn-subscribe:active {
+      -webkit-animation: active 1200ms ease 1 alternate;
+    animation: active 1200ms ease 1 alternate; 
+    background: #5F9BE0;
+}
+
 footer .footer-top .footer-about img {
     height: 100px;
 }

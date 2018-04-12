@@ -457,8 +457,3 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
     -webkit-appearance: button;
     cursor: pointer;
 }
-
-.btn-primary {
-    background-color: #00d793;
-    border: 2px solid #00d793;
-}
