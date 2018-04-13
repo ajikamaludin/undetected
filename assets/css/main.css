@@ -63,7 +63,8 @@ h6 {
 }
 
 .section-tagline {
-    font-size: 18px !important;
+    font-size: 14px !important;
+    font-weight: normal;
     margin: 0;
     color: #A9A9A9;
     clear: both;
@@ -79,6 +80,11 @@ h6 {
     height: 30px;
     width: 100%;
     clear: both;
+}
+
+
+.panel-event {
+    margin-top: 15px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -119,6 +125,11 @@ h6 {
         height: 100px;
         width: 100%;
         clear: both;
+    }
+
+
+    .panel-event {
+        margin-top: -15px;
     }
 }
 
@@ -319,14 +330,14 @@ h6 {
 }
 
 .judul-post{
-    margin: auto;
+    margin: 15px;
     width: 95%;
     padding-top: 10px;
     cursor: pointer;
 }
 
 .judul-post:hover {
-    color: blue;
+    color: var(--main-bg-navbar);
     text-decoration: underline;
 }
 
@@ -352,10 +363,6 @@ h6 {
 
 .post-body > .post-content p {
     font-size: 14px;
-}
-
-.panel-event {
-    margin-top: -15px;
 }
 
 .main > .column2 > .head-event {
